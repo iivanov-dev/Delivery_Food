@@ -1,5 +1,5 @@
-.banner{
-    margin-bottom: 56.06px;
+.banner {
+  margin-bottom: 56.06px;
 }
 
 .banner-item {
@@ -26,16 +26,16 @@
   max-width: 50%;
 }
 
-@media (max-width:991px) {
-    .banner-item {
-        background-image: url("../images/banners/bg.png");
-    }
+@media (max-width: 991px) {
+  .banner-item {
+    background-image: url("../images/banners/bg.png");
+  }
 
-    .banner-item--title{
-        max-width: 80%;
-    }
-    
-    .banner-item--subtitle {
-        max-width: 100%;
-    }
+  .banner-item--title {
+    max-width: 80%;
+  }
+
+  .banner-item--subtitle {
+    max-width: 100%;
+  }
 }
