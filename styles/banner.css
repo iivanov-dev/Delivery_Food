@@ -1,0 +1,41 @@
+.banner{
+    margin-bottom: 56.06px;
+}
+
+.banner-item {
+  background-image: url(../images/banners/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  padding: 68px 0px 68.71px 70.84px;
+  border-radius: 10px;
+}
+
+.banner-item--title {
+  color: #302c34;
+  font-size: 39px;
+  font-weight: 700;
+  max-width: 40%;
+}
+
+.banner-item--subtitle {
+  margin-top: 15.29px;
+  color: #302c34;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 50%;
+}
+
+@media (max-width:991px) {
+    .banner-item {
+        background-image: url(../images/banners/bg.png);
+    }
+
+    .banner-item--title{
+        max-width: 80%;
+    }
+    
+    .banner-item--subtitle {
+        max-width: 100%;
+    }
+}

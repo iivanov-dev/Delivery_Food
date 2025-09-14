@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
 
@@ -19,28 +26,62 @@
             </div>
             <div class="header-controls">
               <button class="btn btn-primary">
-                <img src="./images/nav/user.png" alt="user">
+                <img src="./images/nav/user.png" alt="user" />
                 Войти
               </button>
               <button class="btn btn-outline">
-                <img src="./images/nav/shopping-cart.png" alt="user">
+                <img src="./images/nav/shopping-cart.png" alt="user" />
                 Корзина
               </button>
             </div>
           </div>
         </div>
       </header>
+    
       <main id="main" class="main">
-        <div class="container">container in main</div>
+        <section class="banner">
+          <div class="container">
+            <div class="banner-item">
+              <h2 class="banner-item--title">
+                Онлайн-сервис доставки еды на дом
+              </h2>
+              <p class="banner-item--subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="products">
+          <div class="container">
+            <div class="products-header">
+              <h3 class="products-header--title">
+                Рестораны
+              </h3>
+
+              <input type="text" class="products-header--search">
+            </div>
+          </div>
+        </section>
       </main>
+
       <footer id="footer" class="footer">
         <div class="container">
           <div class="footer-box">
             <div class="footer-logo logo">
               <img src="./images/logo.png" alt="Логотип" />
             </div>
-            <div class="footer-nav">navigation</div>
-            <div class="footer-social">social</div>
+            <div class="footer-nav">
+              <ul>
+                <li>Ресторанам</li>
+                <li>Курьерам</li>
+                <li>Пресс-центр</li>
+                <li>Контакты</li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <img src="./images/social/Instagram.png" alt="Instagram" />
+              <img src="./images/social/Facebook.png" alt="Facebook" />
+              <img src="./images/social/VK.png" alt="VK" />
+            </div>
           </div>
         </div>
       </footer>
