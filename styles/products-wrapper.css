@@ -1,0 +1,17 @@
+.products-wrapper{
+    margin: 40px 0px 90px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.products-card{
+    width: calc((100% - 48px) / 3);
+}
+
+.products-card__image{
+    width: 100%;
+}
+
+.products-card__image img{
+    width: 100%;
+}
