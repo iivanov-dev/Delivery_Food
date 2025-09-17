@@ -1,6 +1,5 @@
 const modal = document.querySelector('.cart-modal__overlay')
 const cartBtn = document.querySelector('#cart-button')
-const closeBtn = document.querySelector('#closeBtn')
 
 const openModal = () => {
     modal.classList.add('open')
@@ -14,6 +13,10 @@ cartBtn.addEventListener('click', () => {
     openModal()
 })
 
-closeBtn.addEventListener('click', () => {
-    closeModal()
+modal.addEventListener('click', (event) => {   
+    
+    if (event.target.classList.contains('cart-modal__overlay') || event.target.closest('.cart-modal__header--close')) {
+        closeModal()
+    }
+    
 })
