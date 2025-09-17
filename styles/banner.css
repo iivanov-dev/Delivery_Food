@@ -3,12 +3,13 @@
 }
 
 .banner-item {
-  background-image: url("../images/banners/banner.jpg");
+  background-image: url("../images/banners/banner-image.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center right;
-  padding: 68px 0px 68.71px 70.84px;
+  padding: 68px 70px 68.71px 70.84px;
   border-radius: 10px;
+  background-color: #FFF1B8;
 }
 
 .banner-item--title {
@@ -28,7 +29,7 @@
 
 @media (max-width: 991px) {
   .banner-item {
-    background-image: url("../images/banners/bg.png");
+    background-image: none;
   }
 
   .banner-item--title {

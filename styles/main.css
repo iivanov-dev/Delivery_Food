@@ -4,6 +4,8 @@
 @import "../styles/products-wrapper.css";
 @import "../styles/footer.css";
 
+@import "../styles/goods.css";
+@import "../styles/cart-modal.css";
 * {
   font-family: Roboto;
   line-height: normal;
@@ -53,6 +55,7 @@ main {
   align-items: center;
   gap: 4px;
   outline: none;
+  cursor: pointer;
 }
 
 .btn-primary {
