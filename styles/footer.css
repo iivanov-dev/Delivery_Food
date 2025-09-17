@@ -29,10 +29,15 @@
   flex-wrap: wrap;
 }
 
-.footer-nav ul li {
+.footer-nav ul li a{
   color: #595959;
   font-size: 18px;
   font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover{
+  color: #0c0c0c;
 }
 
 .footer-social {
