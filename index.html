@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-
+    <script src="./script/index.js" defer></script>
     <title>Delivery Food</title>
   </head>
   <body>
@@ -29,7 +29,7 @@
                 <img src="./images/nav/user.png" alt="user" />
                 Войти
               </button>
-              <button class="btn btn-outline">
+              <button class="btn btn-outline" id="cart-button">
                 <img src="./images/nav/shopping-cart.png" alt="user" />
                 Корзина
               </button>
@@ -248,7 +248,7 @@
         <div class="cart-modal">
           <div class="cart-modal__header">
             <h2 class="cart-modal__header--title">Корзина</h2>
-            <span class="cart-modal__header--close">
+            <span class="cart-modal__header--close" id="closeBtn">
               <img src="./images/icons/close.svg" alt="close" />
             </span>
           </div>
